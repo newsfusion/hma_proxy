@@ -27,7 +27,7 @@ from scrapy import signals
 class HideMyAssSpider(CrawlSpider):
     name = 'hidemyass'
     start_urls = [
-    'http://hidemyass.com/proxy-list/'
+    'http://hidemyass.com/proxy-list/search-226509'
     ]
     allowed_domains = ['hidemyass.com']
     
